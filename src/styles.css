@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+.user {
+  width: 140px;
+  margin: 5px;
+  padding: 0 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(7, 0, 16, 0.2);
+  background-color: rgb(226, 221, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  margin-top: 2px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.description {
+  margin-bottom: 2px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
